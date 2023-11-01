@@ -1,0 +1,1110 @@
+@import url(reset.css);
+@import url(https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,900&display=swap');
+body {
+  font-family: 'Barlow', sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+header{
+    padding: 43.56px 80px 43.44px 80px;
+
+}
+.basic {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+    
+}
+.basic_left {
+    width: 235px;
+    height: 25px;
+}
+.basic_left img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.basic_right {
+}
+.basic_right_menu {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+
+}
+.basic_right_menu li a{
+    color: #83888F;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 15px;
+    letter-spacing: 0.92px;
+}
+.basic_right_menu li a:hover{
+    color: #333D4B;
+}
+.menu_burger{
+    display: none;
+}
+
+
+.about_hero {
+    background: url(../img/about_coffe_background.png) no-repeat;
+    border-radius: 10px;
+    background-size: 1280px;
+    background-position: top center;
+    margin-left: 80px;
+    margin-right:  80px; 
+    margin-bottom: 168px;
+    padding-left: 85px;
+    
+}
+.about_hero_title {
+
+    color: #FEFCF7;
+    font-size: 40px;
+    font-family: 'Fraunces',sans-serif;
+    font-weight: 900;
+    line-height: 48px;
+   
+    padding-top: 137px;
+    margin-bottom: 24px;
+}
+.about_hero_text {
+    color: #FEFCF7;
+    font-size: 16px;
+
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 444px;
+    padding-bottom: 137px;
+    
+
+}
+.commitment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 125px;
+    row-gap: 48px;
+    padding-left: 165px;
+    padding-right: 165px;
+    margin-bottom: 256px;
+    flex-wrap: wrap;
+    
+}
+.commitment_left{
+    width: 445px;
+    height: 520px;
+    margin: 0 auto;
+
+}
+.commitment_left img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.commitment_right{
+    margin: 0 auto;
+}
+.commitment_title{
+   
+    color: #333D4B;
+     font-size: 40px;
+     font-family: 'Fraunces',sans-serif;
+     font-weight: 900;
+     line-height: 48px;
+     margin-bottom: 32px;
+      
+}
+.commitment_text{
+    color: #333D4B;
+    font-size: 16px;
+
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 539px;
+}
+
+.quality {
+    display: flex;
+    
+    justify-content: space-between;
+    column-gap: 125px;
+    
+    background: #2C343E;
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-left: 85px;
+    padding-right: 85px;
+    margin-bottom: 168px;
+    flex-wrap: wrap-reverse;
+    
+    
+}
+.quality_left {
+    margin: 0 auto;
+}
+.quality_title {
+    color: #FEFCF7;
+    font-size: 40px;
+    font-family: 'Fraunces',sans-serif;
+    font-weight: 900;
+    line-height: 48px;
+    padding-top: 88px;
+    margin-bottom: 32px;
+    
+    
+    
+}
+.quality_text {
+    color: #FEFCF7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 538px;
+}
+.quality_right {
+    margin: 0 auto;
+   
+  
+    transition:all 0.5s;
+    transform: translateY(-18%)
+
+}
+
+.quality_right:hover{
+    transform: scale(110%) translateY(-18%);
+}
+.about_hero2 {
+    margin-left: 165px;
+    margin-bottom: 168px;
+    
+}
+.about_hero2_title {
+    color: #83888F;
+    font-size: 24px;
+    font-family: 'Fraunces',sans-serif;
+    font-weight: 900;
+    line-height: 32px;
+    margin-bottom: 72px;
+}
+.about_card {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 95px;
+    row-gap: 80px;
+
+}
+.about_card_cards {
+    width: 285px;
+  
+}
+.about_card_cards_img {
+    width: 40.84px;
+    height: 49.07px;
+   
+    margin-bottom: 48px;
+    
+
+}
+.about_card_cards_img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+    
+}
+.about_card_cards_title {
+    color: #333D4B;
+    font-size: 32px;
+    font-family: 'Fraunces',sans-serif;
+    font-weight: 900;
+    line-height: 36px;
+    margin-bottom: 24px;
+
+}
+.about_card_cards_menu {
+    color: #333D4B;
+    font-size: 16px;
+  
+    font-weight: 400;
+    line-height: 26px;
+    
+}
+
+footer{
+    padding-bottom: 88px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2C343E;
+    margin-left: 80px;
+    margin-right: 80px;
+   row-gap: 65px;
+    padding: 47px 85px;
+
+}
+.footer_block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 103px;
+    row-gap: 32px;
+}
+.footer_block a {
+    color: #83888F;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 15px;
+    letter-spacing: 0.92px;
+ 
+}
+
+.footer_block_text {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+    
+}
+.footer_block_text a:hover{
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+@media (max-width:1438px) and (min-width:768px)  {
+ 
+
+    .commitment_title{
+        text-align: center;
+    }
+    
+    .commitment_text{
+        text-align: center;
+    }
+    .quality{
+    margin-bottom: 144px;
+   }
+    .quality_title{
+        padding-top: 0;
+        text-align: center;
+        
+    }
+    .quality_text{
+        text-align: center;
+        max-width: 571px;
+        padding-bottom: 67px;
+    }
+
+
+    .about_hero2{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .about_card_cards_img {
+        margin: 0 auto;
+        margin-bottom: 48px;
+        
+    }
+    .about_card_cards{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .about_card_cards_menu{
+        width: auto;
+        max-width: 285px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .footer_block{
+        display: flex;
+        flex-direction: column;
+        
+    
+}
+}
+@media (max-width:768px) and (min-width:767px) {
+    header{
+    padding: 40px 39px 53px 39px;
+}
+  
+    .about_hero{
+        margin-left: 39px;
+        margin-right: 39px;
+        padding-left: 58px;
+        margin-bottom: 144px;
+
+    }
+    .about_hero_title{
+        font-size: 32px;
+        padding-top: 118px;
+    }
+    .about_hero_text{
+        padding-bottom: 118px;
+    }
+    .commitment{
+        display: flex;
+        
+        flex-wrap: nowrap;
+        
+        padding-left: 39px;
+        padding-right: 39px;
+        column-gap: 69px;
+        
+    }
+    .commitment_left{
+        width: 445px;
+        height: 470px;
+    }
+    .commitment_left img{
+       
+        border-radius: 10px;
+    }
+    .commitment_title{
+        font-size: 32px;
+        text-align: left;
+        margin-bottom: 30px;
+        
+    }
+    .commitment_text{
+        font-size: 15px;
+        line-height: 25px;
+        text-align: left;
+        padding-bottom: 25px;
+        max-width: 540px;
+
+    }
+    .quality{
+        margin-left: 39px;
+        margin-right: 39px;
+    }
+    .quality_right{
+        
+    }
+    .quality_right img{
+        width: 500px;
+        height: 320px;
+
+    }
+    .quality_title{
+        font-size: 32px;
+        line-height: 48px;
+        text-align: center;
+        padding-top: 0;
+    }
+    .quality_text{
+        font-size: 15px;
+        line-height: 25px;
+        max-width: 540px;
+        text-align: center;
+        padding-bottom: 67px;
+    }
+    .about_hero2{
+        margin-left: 39px;
+        margin-right: 39px;
+    }
+    .about_card{
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 9px;
+    }
+    .about_card_cards{
+        
+    }
+    .about_card_cards_img{
+        margin: 0 0;
+        margin-bottom: 48px;
+    }
+    .about_card_cards_img img{
+      
+        text-align: left;
+    }
+    .about_card_cards_title{
+        font-size: 24px;
+        text-align: left;
+        
+    }
+    .about_card_cards_menu{
+        text-align: left;
+        font-size: 16px;
+        line-height: 26px;
+
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 39px;
+        margin-right: 39px;
+    }
+
+    .footer_block{
+        display: flex;
+        flex-direction: column;
+
+}
+}
+
+
+@media (max-width:767px) and (min-width:689px){
+    header{
+        padding: 40px 39px 53px 39px;
+    }
+      
+        .about_hero{
+            margin-left: 39px;
+            margin-right: 39px;
+            padding-left: 58px;
+            margin-bottom: 144px;
+    
+        }
+        .about_hero_title{
+            font-size: 32px;
+            padding-top: 118px;
+        }
+        .about_hero_text{
+            padding-bottom: 118px;
+        }
+        .commitment{
+            display: flex;
+
+         
+            
+            padding-left: 39px;
+            padding-right: 39px;
+            column-gap: 69px;
+            
+        }
+      
+        .commitment_left img{
+           
+            border-radius: 10px;
+        }
+        .commitment_title{
+            font-size: 32px;
+         text-align: center;
+            margin-bottom: 30px;
+            
+        }
+        .commitment_text{
+            font-size: 15px;
+            line-height: 25px;
+          
+            padding-bottom: 25px;
+            max-width: 540px;
+    
+        }
+        .quality{
+            margin-left: 39px;
+            margin-right: 39px;
+        }
+    
+        .quality_title{
+            font-size: 32px;
+            line-height: 48px;
+            text-align: center;
+        }
+        .quality_text{
+            font-size: 15px;
+            line-height: 25px;
+            max-width: 540px;
+            text-align: center;
+            padding-bottom: 67px;
+        }
+       
+        .about_hero2{
+            
+            margin-left: 39px;
+            margin-right: 39px;
+            
+        }
+      .about_card{
+        display: flex;
+        
+        margin: 0 auto;
+      }
+      .about_card_cards_img{
+        margin: 0 auto;
+        margin-bottom: 45px;
+      }
+        .about_card_cards{
+            margin: 0 auto;
+            
+        }
+      
+        .about_card_cards_title{
+            font-size: 24px;
+            text-align: center;
+          
+            
+        }
+        .about_card_cards_menu{
+           
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+    
+        }
+        .footer{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin-left: 39px;
+            margin-right: 39px;
+        }
+    
+        .footer_block{
+            display: flex;
+            flex-direction: column;
+    
+}
+}
+@media (max-width:689px) and (min-width:626px) {
+        header{
+        padding: 40px 39px 53px 39px;
+    }
+      
+        .about_hero{
+            margin-left: 39px;
+            margin-right: 39px;
+            padding-left: 58px;
+            margin-bottom: 144px;
+    
+        }
+        .about_hero_title{
+            font-size: 32px;
+            padding-top: 118px;
+        }
+        .about_hero_text{
+            padding-bottom: 118px;
+        }
+        .commitment{
+            display: flex;
+
+         
+            
+            padding-left: 39px;
+            padding-right: 39px;
+            column-gap: 69px;
+            
+        }
+      
+        .commitment_left img{
+           
+            border-radius: 10px;
+        }
+        .commitment_title{
+            font-size: 32px;
+         text-align: center;
+            margin-bottom: 30px;
+            
+        }
+        .commitment_text{
+            font-size: 15px;
+            line-height: 25px;
+          
+            padding-bottom: 25px;
+            max-width: 540px;
+    
+        }
+        .quality{
+            margin-left: 39px;
+            margin-right: 39px;
+        }
+    
+        .quality_title{
+            font-size: 32px;
+            line-height: 48px;
+            text-align: center;
+        }
+        .quality_text{
+            font-size: 15px;
+            line-height: 25px;
+            max-width: 540px;
+            text-align: center;
+            padding-bottom: 67px;
+        }
+    .quality_right img{
+        width: 400px;
+        height: 205px;
+    }
+       
+        .about_hero2{
+            
+            margin-left: 39px;
+            margin-right: 39px;
+            
+        }
+      .about_card{
+        display: flex;
+        
+        margin: 0 auto;
+      }
+      .about_card_cards_img{
+        margin: 0 auto;
+        margin-bottom: 45px;
+      }
+        .about_card_cards{
+            margin: 0 auto;
+        }
+      
+        .about_card_cards_title{
+            font-size: 24px;
+            text-align: center;
+          
+            
+        }
+        .about_card_cards_menu{
+           
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+    
+        }
+        .footer{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin-left: 39px;
+            margin-right: 39px;
+        }
+    
+        .footer_block{
+            display: flex;
+            flex-direction: column;
+    
+        }
+}
+@media (max-width:626px) and (min-width:460px) {
+    header{
+    padding: 40px 39px 53px 39px;
+}
+  .basic_right_menu{
+    display: none;
+  }
+  .menu_burger{display: flex;}
+  
+    .about_hero{
+        margin-left: 39px;
+        margin-right: 39px;
+        padding-left: 0px;
+        margin-bottom: 144px;
+
+    }
+    .about_hero_title{
+        font-size: 32px;
+        padding-top: 118px;
+        text-align: center;
+       
+    }
+    .about_hero_text{
+        padding-bottom: 118px;
+        margin: 0 auto;
+        text-align: center;
+        max-width: 279px;
+    }
+    .commitment{
+        display: flex;
+
+     
+        
+        padding-left: 39px;
+        padding-right: 39px;
+        column-gap: 69px;
+        
+    }
+  
+    .commitment_left img{
+       
+        border-radius: 10px;
+    }
+    .commitment_title{
+        font-size: 32px;
+     text-align: center;
+        margin-bottom: 30px;
+        
+        
+    }
+    .commitment_text{
+        font-size: 15px;
+        line-height: 25px;
+      
+        padding-bottom: 25px;
+        max-width: 540px;
+
+    }
+    .quality{
+        
+        margin-left: 39px;
+        margin-right: 39px;
+        padding-left: 24px;
+        padding-right: 24px;
+      
+    }
+
+    .quality_title{
+        font-size: 32px;
+        line-height: 48px;
+        text-align: center;
+        
+    }
+    .quality_text{
+        font-size: 15px;
+        line-height: 25px;
+       
+        text-align: center;
+        padding-bottom: 67px;
+        padding: 0 24px 61px 24px;
+    }
+.quality_right img{
+    width: 279px;
+    height: 156px;
+}
+   
+    .about_hero2{
+        
+        margin-left: 39px;
+        margin-right: 39px;
+        
+    }
+  .about_card{
+    display: flex;
+    
+    
+  }
+  .about_card_cards_img{
+    margin: 0 auto;
+    margin-bottom: 45px;
+  }
+    .about_card_cards{
+        margin: 0 auto;
+    }
+  
+    .about_card_cards_title{
+        font-size: 24px;
+        text-align: center;
+      
+        
+    }
+    .about_card_cards_menu{
+       
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 39px;
+        margin-right: 39px;
+    }
+
+    .footer_block{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .footer_block_text{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:460px) and (min-width:375px) {
+    header{
+    padding: 40px 24px 53px 24px;
+}
+  .basic_right_menu{
+    display: none;
+  }
+  .menu_burger{display: flex;}
+  
+    .about_hero{
+        margin-left: 24px;
+        margin-right: 24px;
+        padding-left: 0px;
+        margin-bottom: 144px;
+
+    }
+    .about_hero_title{
+        font-size: 32px;
+        padding-top: 118px;
+        text-align: center;
+       
+    }
+    .about_hero_text{
+        padding-bottom: 118px;
+        margin: 0 auto;
+        text-align: center;
+        max-width: 279px;
+    }
+    .commitment{
+        display: flex;
+
+     
+        
+        padding-left: 24px;
+        padding-right: 24px;
+        column-gap: 69px;
+        
+    }
+  
+    .commitment_left img{
+       
+        border-radius: 10px;
+    }
+    .commitment_title{
+        font-size: 32px;
+     text-align: center;
+        margin-bottom: 30px;
+        
+        
+    }
+    .commitment_text{
+        font-size: 15px;
+        line-height: 25px;
+      
+        padding-bottom: 25px;
+        text-align: center;
+       
+
+    }
+    .quality{
+        
+        margin-left: 24px;
+        margin-right: 24px;
+        padding-left: 24px;
+        padding-right: 24px;
+      
+    }
+
+    .quality_title{
+        font-size: 28px;
+        line-height: 48px;
+        text-align: center;
+        
+    }
+    .quality_text{
+        font-size: 15px;
+        line-height: 25px;
+       
+        text-align: center;
+        padding-bottom: 67px;
+        padding: 0 24px 61px 24px;
+    }
+.quality_right img{
+    width: 279px;
+    height: 156px;
+}
+   
+    .about_hero2{
+        
+        margin-left: 24px;
+        margin-right: 24px;
+        
+    }
+    .about_hero2_title{
+        text-align: center;
+    }
+  .about_card{
+    display: flex;
+    
+    
+  }
+  .about_card_cards_img{
+    margin: 0 auto;
+    margin-bottom: 45px;
+  }
+    .about_card_cards{
+        margin: 0 auto;
+    }
+  
+    .about_card_cards_title{
+        font-size: 24px;
+        text-align: center;
+      
+        
+    }
+    .about_card_cards_menu{
+       
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .footer_block{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .footer_block_text{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:375px) and (min-width:340px) {
+    header{
+    padding: 40px 24px 53px 39px;
+}
+  .basic_right_menu{
+    display: none;
+  }
+  .menu_burger{display: flex;}
+  
+    .about_hero{
+        margin-left: 24px;
+        margin-right: 24px;
+        padding-left: 0px;
+        margin-bottom: 144px;
+
+    }
+    .about_hero_title{
+        font-size: 32px;
+        padding-top: 118px;
+        text-align: center;
+       
+    }
+    .about_hero_text{
+        padding-bottom: 118px;
+        margin: 0 auto;
+        text-align: center;
+        max-width: 279px;
+    }
+    .commitment{
+        display: flex;
+
+     
+        
+        padding-left: 24px;
+        padding-right: 24px;
+        column-gap: 69px;
+        
+    }
+  
+    .commitment_left img{
+       
+        border-radius: 10px;
+    }
+    .commitment_title{
+        font-size: 32px;
+     text-align: center;
+        margin-bottom: 30px;
+        
+        
+    }
+    .commitment_text{
+        font-size: 15px;
+        line-height: 25px;
+      
+        padding-bottom: 25px;
+        text-align: center;
+       
+
+    }
+    .quality{
+        
+        margin-left: 24px;
+        margin-right: 24px;
+        padding-left: 24px;
+        padding-right: 24px;
+      
+    }
+
+    .quality_title{
+        font-size: 28px;
+        line-height: 48px;
+        text-align: center;
+        
+    }
+    .quality_text{
+        font-size: 15px;
+        line-height: 25px;
+       
+        text-align: center;
+        padding-bottom: 67px;
+        padding: 0 24px 61px 24px;
+    }
+.quality_right img{
+    width: 200px;
+    height: 130px;
+}
+   
+    .about_hero2{
+        
+        margin-left: 24px;
+        margin-right: 24px;
+        
+    }
+    .about_hero2_title{
+        text-align: center;
+    }
+  .about_card{
+    display: flex;
+    
+    
+  }
+  .about_card_cards_img{
+    margin: 0 auto;
+    margin-bottom: 45px;
+  }
+    .about_card_cards{
+        margin: 0 auto;
+    }
+  
+    .about_card_cards_title{
+        font-size: 24px;
+        text-align: center;
+      
+        
+    }
+    .about_card_cards_menu{
+       
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .footer_block{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .footer_block_text{
+        display: flex;
+        flex-direction: column;
+    }
+}
